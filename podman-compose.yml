@@ -1,0 +1,37 @@
+# Styx (River in Hades)
+#
+# WebDevel Server in Container
+# - Apache 2.4
+# - PHP 7.4
+# - Composer 2
+# - httpd Port 80 (reason for sudo)
+#
+# run:
+# >> cd ./styx7-a2p7c2
+# >> sudo podman-compose up -d
+# stop:
+# >> sudo podman-compose down
+#
+version: "3"
+
+services:
+  # PHP, Apache, Composer
+  webserver:
+    container_name: styx7--webserver
+    build:
+      context: ./container/php7-apache
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
+    network:
+      - styxnet
+    volumes:
+      # apache vhosts
+      - ./container/php7-apache/config/vhosts/zzz-00-app.conf:/etc/apache2/sites-enabled/zzz-00-app.conf:Z
+      # apache webroot(s)
+      - ${HTTPD_WEBROOT_HOST}:/var/www/html
+
+
+networks:
+  styxnet:
+    driver: host
