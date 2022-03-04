@@ -12,3 +12,7 @@ L.A.M.P. in a Container. Podman Container for Fedora Silverblue. LAMP-Stack with
 ## Why sudo?
 Container shall use Host Network and priviledged Port 80.
 Currently I don't know a better way to achive this goal.
+
+### Build by
+PHOENIXSEO.de Frank Pfabigan e.K.
+https://phoenixseo.de
