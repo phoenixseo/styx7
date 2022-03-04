@@ -1,8 +1,10 @@
-## Welcome to GitHub Pages
+# Styx7
+L.A.M.P. in a Container. Podman Container for Fedora Silverblue. LAMP-Stack with {Apache 2.4, PHP 7.4, Composer 2, git} to run as local development server for PHP-based Projects.
 
-You can use the [editor on GitHub](https://github.com/phoenixseo/styx7/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+## Start/Stop Styx7
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+```cd styx7
+```
 
 ### Markdown
 
