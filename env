@@ -1,0 +1,11 @@
+### styx runtime config (.env file)
+#
+### apache httpd
+HTTPD_HOST_PORT=80
+HTTPD_CONTAINER_PORT=80
+HTTPD_WEBROOT_HOST=/var/home/frankpfabigan/mount/nas/webroot/sites
+#HTTPD_WEBROOT_HOST=/var/home/frankpfabigan/mount/nas/webroot/sites-root
+
+### php
+PHP_HOST_PORT=9000
+PHP_CONTAINER_PORT=9000
