@@ -7,7 +7,7 @@
 # - httpd Port 80 (reason for sudo)
 #
 # run:
-# >> cd ./styx7-a2p7c2
+# >> cd ./styx7
 # >> sudo podman-compose up -d
 # stop:
 # >> sudo podman-compose down
