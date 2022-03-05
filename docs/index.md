@@ -14,8 +14,8 @@ Container shall use Host Network and priviledged Port 80.
 Currently I don't know a better way to achive this goal.
 
 ## Host Config
-See (https://phoenixseo.github.io/styx7/host)
+See <https://phoenixseo.github.io/styx7/host>
 
 ### Build by
 PHOENIXSEO.de Frank Pfabigan e.K.
-(https://phoenixseo.de)
+<https://phoenixseo.de>
