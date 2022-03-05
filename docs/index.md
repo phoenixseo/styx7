@@ -18,7 +18,7 @@ Container shall use Host Network and priviledged Port 80.
 Currently I don't know a better way to achive this goal.
 
 ## Host Config
-See [Host-Config](docs/host.md)
+See [Host-Config](./docs/host.md)
 
 ### Build by
 PHOENIXSEO.de Frank Pfabigan e.K.
